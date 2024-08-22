@@ -1,0 +1,34 @@
+name: sensor2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  http: ^1.1.2
+  intl: ^0.18.1
+  local_auth: ^2.1.7
+  path: ^1.8.3
+  pedometer: ^4.0.1
+  sensors: ^2.0.3
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/hiking-sunset-wallpaper.jpg
+  fonts:
+    - family: High Summit
+      fonts:
+        - asset: fonts/High Summit.ttf
